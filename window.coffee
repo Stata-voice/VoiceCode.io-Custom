@@ -10,3 +10,12 @@ Package.command 'minimize-window',
    continuous: false
    action: ->
        @key 'm', 'command'
+
+
+Package.command 'new window',
+   spoken: 'plum'
+   enabled: true
+   description: "new window"
+   continuous: false
+   action: ->
+       @key 'n', 'command'
